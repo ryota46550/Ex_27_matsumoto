@@ -76,7 +76,7 @@ class Ex27
 
         public float GetSurface()
         {
-            return 2 * MathF.PI * bottom * (height * bottom);
+            return bottom * 2.0f * MathF.PI * height + bottom * bottom * MathF.PI * 2.0f;
         }
 
     }
